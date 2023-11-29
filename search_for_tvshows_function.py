@@ -10,7 +10,7 @@ def download_tv_show_image(tv_show_name, save_folder=None, year=None):
         os.makedirs(save_folder)
 
     # TMDB API configuration
-    api_key = '80a500d30241b4584b32e52123f2fa73'  # Replace with your TMDB API key
+    api_key = 'xxxxxxxxxxxxxxxxx'  # Replace with your TMDB API key
     base_url = 'https://api.themoviedb.org/3'
     search_url = f'{base_url}/search/tv'
 
